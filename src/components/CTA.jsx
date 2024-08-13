@@ -7,7 +7,7 @@ const CTA = () => {
           Simplify how your team works today
         </h2>
         <div>
-          <button className="hidden  p-3 px-6 pt-2 text-brightRed bg-white shadow-2xl rounded-full baseline hover:bg-gray-900 md:block">
+          <button className="hidden  py-2 px-6 text-brightRed bg-white shadow-2xl rounded-full baseline hover:bg-gray-900 md:block">
             Get Started
           </button>
         </div>

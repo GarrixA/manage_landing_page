@@ -1,6 +1,7 @@
 import Logo from "../assets/images/logo.svg";
 import Menu from "../assets/images/icon-hamburger.svg";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [menu, setMenu] = useState(false);
@@ -26,9 +27,9 @@ const NavBar = () => {
             Community
           </li>
         </ul>
-        <button className="hidden  p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">
+        <Link to="/join"><button className="hidden  py-2 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">
           Get Started
-        </button>
+        </button></Link>
 
         <button
           className={

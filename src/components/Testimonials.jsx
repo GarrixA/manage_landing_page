@@ -1,6 +1,7 @@
 import Anisha from "../assets/images/avatar-anisha.png"
 import Ali from "../assets/images/avatar-ali.png"
 import Richard from "../assets/images/avatar-richard.png"
+import { Link } from "react-router-dom"
 
 const Testimonials = () => {
   return (
@@ -40,9 +41,9 @@ const Testimonials = () => {
           </div>
         </div>
         <div className="my-16 mx-auto flex justify-center">
-          <button className="hidden  p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">
+          <Link to="/join"><button className="hidden  py-2 px-6 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">
           Join Waitlist!
-          </button>
+          </button></Link>
         </div>
         </div>
     </section>

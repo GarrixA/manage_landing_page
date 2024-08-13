@@ -1,4 +1,5 @@
 import Illustration from "../assets/images/illustration-intro.svg"
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -13,9 +14,9 @@ const HeroSection = () => {
             while keeping the larger team goals in view.
           </p>
           <div className="flex justify-center md:justify-start">
-            <button className="hidden  p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">
+            <Link to="/join"><button className="hidden py-2 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">
               Join Waitlist!
-            </button>
+            </button></Link>
           </div>
         </div>
         <div className="md:w-1/2">
