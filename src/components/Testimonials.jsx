@@ -41,7 +41,7 @@ const Testimonials = () => {
         </div>
         <div className="my-16 mx-auto flex justify-center">
           <button className="hidden  p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">
-            Get Started
+          Join Waitlist!
           </button>
         </div>
         </div>

@@ -52,8 +52,8 @@ const Footer = () => {
         <div className="flex flex-col justify-between">
           <form className="space-x-3">
             <input type="text" className="flex-1 px-4 py-2 rounded-full focus:outline-none" 
-            placeholder="Updated in your inbox"/>
-            <button className="px-6 py-2 text-white rounded-full bg-brightRed">Go</button>
+            placeholder="Enter you email"/>
+            <button className="px-6 py-2 text-white rounded-full bg-brightRed">Join</button>
           </form>
           <div className="hidden text-white md:block">
             Copyright &copy; 2022 All Rights Reserved
