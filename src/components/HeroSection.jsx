@@ -14,7 +14,7 @@ const HeroSection = () => {
             while keeping the larger team goals in view.
           </p>
           <div className="flex justify-center md:justify-start">
-            <Link to="/join"><button className="hidden py-2 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">
+            <Link to="/join"><button className="py-2 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">
               Join Waitlist!
             </button></Link>
           </div>

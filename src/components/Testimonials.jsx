@@ -41,7 +41,7 @@ const Testimonials = () => {
           </div>
         </div>
         <div className="my-16 mx-auto flex justify-center">
-          <Link to="/join"><button className="hidden  py-2 px-6 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">
+          <Link to="/join"><button className="py-2 px-6 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">
           Join Waitlist!
           </button></Link>
         </div>
